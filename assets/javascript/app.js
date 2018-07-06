@@ -4,7 +4,7 @@ var questions = [{
   answers: ["===", "!==", "||", "<="],
   correctAnswer: "||"
 }, {
-  question: "The exisiting content is lost when theis jQuery method is used to get and set the content of a selected element. ",
+  question: "The exisiting content is lost when thes jQuery method is used to get and set the content of a selected element. ",
   answers: ["append()", "after()", "prepend()", "text()"],
   correctAnswer: "text()"
 }, {

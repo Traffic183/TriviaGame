@@ -38,6 +38,7 @@ input#radioBtns {
   font-weight: bold;
   margin-bottom: 20px;
   margin-top: 10px;
+  color: black;
 }
 
 
@@ -70,7 +71,7 @@ h3 {
   box-sizing: border-box;
   padding: 5% 5%;
   margin: 5% auto;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.95);
 }
 
 #subwrapper {
