@@ -55,7 +55,7 @@ var game = {
   start: function() {
     timer = setInterval(game.countdown, 1000);
 
-    $("#subwrapper").prepend("<h2>Time Remaining: <span id='counter-number'>120</span> Seconds</h2>");
+    $("#subwrapper").prepend("<h2 id='timerText'>Time Remaining: <span id='counter-number'>120</span> Seconds</h2>");
 
     $("#start").remove();
 
@@ -63,7 +63,7 @@ var game = {
       gameArea.append("<h2>" + questions[i].question + "</h2>");
       for (var j = 0; j < questions[i].answers.length; j++) {
         gameArea.append("<input id='radioBtns' type='radio' name='question-" + i +
-        "' value='" + questions[i].answers[j] + "''>" + questions[i].answers[j]);
+        "' value='" + questions[i].answers[j] + "''>" + "<span id='btnText'>" + questions[i].answers[j] + "</span>");
       }
     }
 
