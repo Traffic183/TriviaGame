@@ -14,11 +14,11 @@ body {
 
 input#radioBtns {
   margin-left: 10px;
-  width: 15px;  
-  height: 15px;   
-  background-color: rgb(13, 0, 255);  
+  width: 15px;
+  height: 15px;
+  background-color: rgb(13, 0, 255);
   box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .8);
-  border-radius: 8px; 
+  border-radius: 8px;
 }
 
 #timerText {
@@ -29,23 +29,21 @@ input#radioBtns {
 
 #btnText {
   font-size: 1.25em;
-  font-weight: 400;
+  font-weight: 600;
 }
 
-
 #title {
-  font-size: 6em;
+  font-size: 5.75em;
   font-weight: bold;
   margin-bottom: 20px;
   margin-top: 10px;
   color: black;
 }
 
-
 h2 {
   margin-bottom: 20px;
   margin-top: 20px;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 600;
   color: black;
   padding: 20px;
@@ -72,6 +70,7 @@ h3 {
   padding: 5% 5%;
   margin: 5% auto;
   background: rgba(255, 255, 255, 0.95);
+  /* background-color: rgba(119, 136, 153, 0.95) */
 }
 
 #subwrapper {
